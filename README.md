@@ -136,28 +136,3 @@ semantic-patent-chatbot/
 
 ---
 
-## ⚠️ Limitations
-
-- No real-time scraping (manual ZIP download required)
-- No advanced claim tree visualization (yet)
-- Semantic filtering by year or domain is basic
-
----
-
-## 📬 Contact
-
-For questions or collaboration:
-**Team Silo Patent Whisperers**  
-📧 hackathon@silofortune.com
-
----
-
-## 🏁 License
-
-This project is for educational and hackathon use only. No commercial use permitted without permission.
-
-```
-
----
-
-Would you like me to generate a badge or GitHub Actions workflow for auto-testing next?
