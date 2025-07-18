@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patent Chatbot</title>
+</head>
+<body>
+    <h2>Ask about patents:</h2>
+    <input type="text" id="query" placeholder="e.g. rice-based edible straws">
+    <button onclick="sendQuery()">Search</button>
+    <div id="results"></div>
+
+    <script>
+        async function sendQuery() {
+            const query = document.getElementById("query").value;
+            const response = await fetch("/query", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ query })
+            });
+            const data = await response.json();
+            document.getElementById("results").innerHTML = data.map(d => `<p>${d.citation}</p>`).join("");
+        }
+    </script>
+</body>
+</html>

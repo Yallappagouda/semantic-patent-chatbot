@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+tqdm
+sentence-transformers
+faiss-cpu
+flask

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.zip
+*.faiss
+*.json
+*.xml
+*.db
+data/raw_zips/
+data/extracted_xml/
+data/json_patents/
