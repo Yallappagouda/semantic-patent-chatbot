@@ -1,10 +1,4 @@
-Absolutely, Manasa! Here's a polished and professional **`README.md`** for your GitHub repository. It highlights your project goals, setup instructions, architecture, and usage—all tailored for the **SiloFortune Hackathon** and your team **Silo Patent Whisperers**.
 
----
-
-## 📄 `README.md`
-
-```markdown
 # 🧠 Semantic Patent Chatbot  
 **Team:** Silo Patent Whisperers  
 **Track:** Data Science — SiloFortune Hackathon  
